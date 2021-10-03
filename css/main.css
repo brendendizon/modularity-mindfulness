@@ -131,9 +131,19 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
-header {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1 {
+    align-items: flex-start;
+  }
+
+  section {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
 }
