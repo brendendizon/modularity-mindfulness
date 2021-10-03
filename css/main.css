@@ -17,11 +17,39 @@ html {
   font-style: normal;
 }
 
+
+
+/* nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  color: #3783a3;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 body {
   margin: 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  padding: 1rem;
 }
 
 img {
   display: block;
   width: 100%;
-}
+} */
